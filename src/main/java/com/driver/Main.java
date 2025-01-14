@@ -19,7 +19,7 @@ class B extends A{
    String meth()
    {
 
-       return "Method is overridden in Extend end class B";
+       return "Method is overridden  Extends class B";
    }
 }
 
@@ -38,3 +38,5 @@ public class Main {
 
     }
 }
+
+//one more line added
