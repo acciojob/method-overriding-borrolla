@@ -9,7 +9,22 @@ package com.driver;
 //Task 5:
 // * call this overridden method from obj of class B
 
+
 public class Main {
+    public static class A
+    {
+        public String meth()
+        {
+            return "Invoking method from class A";
+        }
+    }
+    public static class B extends com.driver.A
+    {
+        public String meth()
+        {
+            return "Method is overridden in Extend class B";
+        }
+    }
 
     public static void main(String[] args)
     {
