@@ -7,8 +7,6 @@ package com.driver;
 // Task 2:
 // * create a class B which extends class A
 
-
-
 //Task 3:
 // * create object of class B and call method `meth` of class A with it
 
