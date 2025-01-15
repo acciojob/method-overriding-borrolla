@@ -3,10 +3,6 @@ package com.driver;
 // * create a class A, with a method named meth having returning a string
 // * "Invoking method from class A"
 
-
-// Task 2:
-// * create a class B which extends class A
-
 //Task 3:
 // * create object of class B and call method `meth` of class A with it
 
@@ -23,4 +19,6 @@ public class Main {
 
     }
 }
+
+//added one more line
 

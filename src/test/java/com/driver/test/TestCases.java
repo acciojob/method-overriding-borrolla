@@ -1,10 +1,19 @@
 package com.driver.test;
 
+import com.driver.A;
 import com.driver.B;
 public class TestCases
 {
-    public static void main(String[] args)
+
+    public void testA()
     {
-        B objB = new B(); System.out.println(objB.meth());
+        A a = new A();
+        // Test code for class A
+    }
+
+    public void testB()
+    {
+        B b = new B();
+        // Test code for class B
     }
 }
