@@ -12,14 +12,15 @@ class A{
 // Task 2:
 // * create a class B which extends class A
 
-class B extends A{
+class B extends A
+{
     //Task 4:
     // * Now override methode `meth` of class A in class B, which returns the following string
     @Override
    String meth()
    {
 
-       return "Method is overridden  Extendend class B";
+       return "Method is overridden Extended class B";
    }
 }
 
